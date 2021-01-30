@@ -44,7 +44,7 @@ public class StrideItems {
     public static final RegistryObject<Item> CRIMSON_PUFFERFISH_ITEM = REGISTER.register("crimson_pufferfish",()->new Item(new Item.Properties().food(CRIMSON_PUFFERFISH)));
     public static final RegistryObject<Item> CUBELING = REGISTER.register("cubeling",()->new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROTTEN_FISH_ITEM = REGISTER.register("rotten_fish",()->new Item(new Item.Properties().food(ROTTEN_FISH)));
-
+    public static final RegistryObject<Item> BOTTLED_CUBELING = REGISTER.register("bottled_cubeling",()->new BottledCubeling(new Item.Properties()));
 
     private StrideItems() {}
 }

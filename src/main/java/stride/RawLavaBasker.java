@@ -3,6 +3,7 @@ package stride;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.world.World;
 
 public class RawLavaBasker extends Item {
@@ -20,7 +21,7 @@ public class RawLavaBasker extends Item {
             entity.heal(2);
         }
 
-        return itemstack;
+        return new ItemStack(Items.GLASS_BOTTLE);
     }
 
     @Override
