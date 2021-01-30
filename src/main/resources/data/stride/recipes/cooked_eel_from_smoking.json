@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "stride:raw_eel"
+  },
+  "result": "stride:cooked_eel",
+  "experience": 0.35,
+  "cookingtime": 100
+}

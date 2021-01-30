@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "stride:soul_carp"
+  },
+  "result": "stride:soul",
+  "experience": 0.5,
+  "cookingtime": 600
+}

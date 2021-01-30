@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "stride:soul_carp"
+  },
+  "result": "stride:soul",
+  "experience": 0.5,
+  "cookingtime": 200
+}

@@ -18,5 +18,12 @@
   "item.stride.warped_pufferfish": "Warped Pufferfish",
   "item.stride.crimson_pufferfish": "Crimson Pufferfish",
   "item.stride.cubeling": "Cubeling",
-  "item.stride.rotten_fish": "Rotten Fish"
+  "item.stride.bottled_cubeling": "Bottled Cubeling",
+  "item.stride.bottled_cubeling.effect.empty": "Bottled Cubeling",
+  "item.stride.tiny_magma_cube": "Tiny Magma Cube",
+  "item.stride.raw_eel": "Eel",
+  "item.stride.cooked_eel": "Cooked Eel",
+  "item.stride.soul_carp": "Soul Carp",
+  "item.stride.soul": "Soul",
+  "death.attack.ZAP": "%1$s was zapped by an Eel"
 }
