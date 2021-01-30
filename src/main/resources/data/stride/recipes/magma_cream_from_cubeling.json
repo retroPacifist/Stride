@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "stride:cubeling"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_cream"
+  }
+}

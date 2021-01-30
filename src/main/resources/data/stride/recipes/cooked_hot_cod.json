@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "stride:raw_hot_cod"
+  },
+  "result": "stride:cooked_hot_cod",
+  "experience": 0.35,
+  "cookingtime": 200
+}

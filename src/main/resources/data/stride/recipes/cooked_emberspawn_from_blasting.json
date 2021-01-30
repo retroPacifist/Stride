@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "stride:raw_emberspawn"
+  },
+  "result": "stride:cooked_emberspawn",
+  "experience": 0.35,
+  "cookingtime": 100
+}

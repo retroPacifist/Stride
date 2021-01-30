@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "stride:raw_lava_basker"
+  },
+  "result": "stride:cooked_lava_basker",
+  "experience": 0.35,
+  "cookingtime": 600
+}

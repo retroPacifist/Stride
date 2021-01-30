@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "stride:raw_salamander"
+  },
+  "result": "stride:cooked_salamander",
+  "experience": 0.35,
+  "cookingtime": 600
+}

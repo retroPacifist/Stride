@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "stride:woolen_strider_armor"
+  }
+}
