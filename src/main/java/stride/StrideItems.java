@@ -43,11 +43,12 @@ public class StrideItems {
     public static final Food COOKED_SALAMANDER = (new Food.Builder()).hunger(3).saturation(0.4F).meat().build();
     public static final Food WARPED_PUFFERFISH = (new Food.Builder()).hunger(1).saturation(0.1F).effect(new EffectInstance(Effects.REGENERATION, 200, 0), 1F).effect(new EffectInstance(Effects.MINING_FATIGUE, 250, 0), 1F).meat().build();
     public static final Food CRIMSON_PUFFERFISH = (new Food.Builder()).hunger(1).saturation(0.1F).effect(new EffectInstance(Effects.POISON, 250, 0), 1F).effect(new EffectInstance(Effects.HASTE, 200, 0), 1F).meat().build();
-    public static final Food ROTTEN_FISH = (new Food.Builder()).hunger(2).saturation(0.1F).effect(new EffectInstance(Effects.HUNGER, 400, 0), 1F).meat().build();
+    public static final Food ROTTEN_FISH = (new Food.Builder()).hunger(4).saturation(0.2F).effect(new EffectInstance(Effects.HUNGER, 400, 0), 1F).meat().build();
     public static final Food COOKED_EEL = (new Food.Builder()).hunger(2).saturation(0.3F).meat().fastToEat().build();
     public static final Food RAW_EEL = (new Food.Builder()).hunger(0).saturation(0.5F).effect(new EffectInstance(Effects.SPEED, 200, 0), 1F).meat().fastToEat().build();
     public static final Food SOUL_CARP = (new Food.Builder()).hunger(1).saturation(0.1F).meat().build();
     public static final Food SOUL = (new Food.Builder()).hunger(0).saturation(0.3F).build();
+    public static final Food WARPED_CAKE_SLICE = (new Food.Builder()).hunger(2).saturation(0.1F).effect(new EffectInstance(Effects.NAUSEA, 400, 0), 1F).build();
     public static final DeferredRegister<Item> REGISTER = DeferredRegister.create(ForgeRegistries.ITEMS,Stride.MODID);
     public static final RegistryObject<Item> WOOLEN_STRIDER_ARMOR = REGISTER.register("woolen_strider_armor",()->new Item(new Item.Properties().group(CREATIVE_TAB).maxStackSize(1)));
     public static final RegistryObject<Item> LEATHER_STRIDER_ARMOR = REGISTER.register("leather_strider_armor",()->new Item(new Item.Properties().group(CREATIVE_TAB).maxStackSize(1)));
@@ -76,5 +77,7 @@ public class StrideItems {
     public static final RegistryObject<Item> TINY_MAGMA_CUBE_ITEM = REGISTER.register("tiny_magma_cube",()->new TinyMagmaCube(new Item.Properties().group(CREATIVE_TAB).isImmuneToFire()));
     public static final RegistryObject<Item> SOUL_CARP_ITEM = REGISTER.register("soul_carp",()->new Item(new Item.Properties().food(SOUL_CARP).group(CREATIVE_TAB).isImmuneToFire()));
     public static final RegistryObject<Item> SOUL_ITEM = REGISTER.register("soul",()->new Soul(new Item.Properties().food(SOUL).group(CREATIVE_TAB).isImmuneToFire()));
+    public static final RegistryObject<Item> WARPED_CAKE_ITEM = REGISTER.register("warped_cake",()->new Item(new Item.Properties().group(CREATIVE_TAB)));
+    public static final RegistryObject<Item> WARPED_CAKE_SLICE_ITEM = REGISTER.register("warped_cake_slice",()->new Item(new Item.Properties().food(WARPED_CAKE_SLICE).group(CREATIVE_TAB)));
     private StrideItems() {}
 }

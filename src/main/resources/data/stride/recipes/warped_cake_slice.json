@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "stride:warped_cake"
+    }
+  ],
+  "result": {
+    "item": "stride:warped_cake_slice",
+    "count": 8
+  }
+}
