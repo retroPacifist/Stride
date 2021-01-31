@@ -1,9 +1,6 @@
 package stride;
 
-import net.minecraft.item.Food;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.util.ResourceLocation;
@@ -76,7 +73,7 @@ public class StrideItems {
     public static final RegistryObject<Item> BOTTLED_CUBELING = REGISTER.register("bottled_cubeling",()->new BottledCubeling(new Item.Properties().group(CREATIVE_TAB).isImmuneToFire().maxStackSize(1)));
     public static final RegistryObject<Item> COOKED_EEL_ITEM = REGISTER.register("cooked_eel",()->new Item(new Item.Properties().food(COOKED_EEL).group(CREATIVE_TAB).isImmuneToFire()));
     public static final RegistryObject<Item> RAW_EEL_ITEM = REGISTER.register("raw_eel",()->new RawEel(new Item.Properties().food(RAW_EEL).group(CREATIVE_TAB).isImmuneToFire()));
-    public static final RegistryObject<Item> TINY_MAGMA_CUBE_ITEM = REGISTER.register("tiny_magma_cube",()->new Item(new Item.Properties().group(CREATIVE_TAB).isImmuneToFire()));
+    public static final RegistryObject<Item> TINY_MAGMA_CUBE_ITEM = REGISTER.register("tiny_magma_cube",()->new TinyMagmaCube(new Item.Properties().group(CREATIVE_TAB).isImmuneToFire()));
     public static final RegistryObject<Item> SOUL_CARP_ITEM = REGISTER.register("soul_carp",()->new Item(new Item.Properties().food(SOUL_CARP).group(CREATIVE_TAB).isImmuneToFire()));
     public static final RegistryObject<Item> SOUL_ITEM = REGISTER.register("soul",()->new Soul(new Item.Properties().food(SOUL).group(CREATIVE_TAB).isImmuneToFire()));
     private StrideItems() {}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=false,waterlogged=false": {
+      "model": "stride:block/dull_lantern"
+    },
+    "hanging=true,waterlogged=false": {
+      "model": "stride:block/dull_hanging_lantern"
+    },
+    "hanging=false,waterlogged=true": {
+      "model": "stride:block/dull_lantern"
+    },
+    "hanging=true,waterlogged=true": {
+      "model": "stride:block/dull_hanging_lantern"
+    }
+  }
+}

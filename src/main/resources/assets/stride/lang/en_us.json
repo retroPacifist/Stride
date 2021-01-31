@@ -20,10 +20,16 @@
   "item.stride.cubeling": "Cubeling",
   "item.stride.bottled_cubeling": "Bottled Cubeling",
   "item.stride.bottled_cubeling.effect.empty": "Bottled Cubeling",
+  "item.stride.bottled_cubeling.effect.mundane": "Mundane Bottled Cubeling",
+  "item.stride.bottled_cubeling.effect.awkward": "Awkward Bottled Cubeling",
+  "item.stride.bottled_cubeling.effect.thick": "Thick Bottled Cubeling",
+  "item.stride.bottled_cubeling.effect.water": "Bottled Cubeling",
   "item.stride.tiny_magma_cube": "Tiny Magma Cube",
   "item.stride.raw_eel": "Eel",
   "item.stride.cooked_eel": "Cooked Eel",
   "item.stride.soul_carp": "Soul Carp",
   "item.stride.soul": "Soul",
-  "death.attack.ZAP": "%1$s was zapped by an Eel"
+  "death.attack.ZAP": "%1$s was zapped by an Eel",
+  "item.stride.dull_lantern": "Dull Lantern",
+  "block.stride.dull_lantern": "Dull Lantern"
 }
