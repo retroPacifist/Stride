@@ -51,5 +51,7 @@
   "item.stride.bottled_cubeling.effect.strength": "Incendiary Potion of Strength",
   "item.stride.bottled_cubeling.effect.weakness": "Incendiary Potion of Weakness",
   "item.stride.bottled_cubeling.effect.luck": "Incendiary Potion of Luck",
-  "item.stride.bottled_cubeling.effect.slow_falling": "Incendiary Potion of Slow Falling"
+  "item.stride.bottled_cubeling.effect.slow_falling": "Incendiary Potion of Slow Falling",
+  "item.stride.strider_bucket": "Bucketed Strider",
+  "item.stride.fish_trap": "Fish Trap"
 }

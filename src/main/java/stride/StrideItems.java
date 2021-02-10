@@ -79,5 +79,6 @@ public class StrideItems {
     public static final RegistryObject<Item> SOUL_ITEM = REGISTER.register("soul",()->new Soul(new Item.Properties().food(SOUL).group(CREATIVE_TAB).isImmuneToFire()));
     public static final RegistryObject<Item> WARPED_CAKE_ITEM = REGISTER.register("warped_cake",()->new Item(new Item.Properties().group(CREATIVE_TAB)));
     public static final RegistryObject<Item> WARPED_CAKE_SLICE_ITEM = REGISTER.register("warped_cake_slice",()->new Item(new Item.Properties().food(WARPED_CAKE_SLICE).group(CREATIVE_TAB)));
+    public static final RegistryObject<Item> STRIDER_BUCKET_ITEM = REGISTER.register("strider_bucket",()->new StriderBucket(new Item.Properties().group(CREATIVE_TAB).isImmuneToFire().maxStackSize(1)));
     private StrideItems() {}
 }
