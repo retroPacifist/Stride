@@ -1,7 +1,6 @@
 package stride;
 
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.monster.MagmaCubeEntity;
 import net.minecraft.entity.passive.StriderEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
